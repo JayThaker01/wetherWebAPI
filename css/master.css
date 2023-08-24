@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("/images/earth.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2 {
+    margin: 1% auto !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.top {
+    padding: 15%;
+    height: 90vh;
+}
+
+.cityList {
+    width: 60vw !important;
+    margin: auto;
+}
+
+.bottom {
+    height: 10vh;
+}
+
+.copyright-text {
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    margin: auto;
+    padding: auto;
+}
+
+.card-container {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 2% 1%;
+    background-color: rgb(112, 185, 253) !important;
+}
+
+.dateText {
+    font-size: 20px;
+    margin: 5px auto;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.err {
+    text-align: center !important;
+    background-color: white;
+    padding: 2%;
+    width: 100%;
+    color: rgb(250, 115, 115);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
